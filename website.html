@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MCS2 universe </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="website.html"><img src="file:///C:/CODING/website/image/MCS2.png"></a>
+                <h3 class="creat"> created by indirrr </h3>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>  
+                    <li><a href="" > HOME </a></li>
+                    <li><a href="SOSMED.html" > SOCIAL MEDIA </a></li>
+                    <li><a href="GALLERY.html" > GALLERY </a></li>
+                    <li><a href="" > ROOMCHAT </a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+        <h1> WELCOME TO OUR UNIVERSE </h1>
+        <p> Website ini dibuat untuk menjadi memory digital kita semua <br> HOPE YOU LIKE IT GUYS </p>
+        <a href="aboutus.html" class="hero-btn"> ABOUT US </a>
+    </div>
+    </section>
+
+<!-- Course -->
+<section class="course">
+    <h1></h1>OUR MEMBER :</h1>
+   
+
+    <div class="row">
+        <div class="course-col">
+            <h3>INDI</h3>
+            <p>@indi_rrr</p>
+        </div>   
+        <div class="course-col">
+            <h3>NOPA</h3>
+            <p>@novzzilaaa</p>
+        </div>
+        <div class="course-col">
+            <h3>NAYA</h3>
+            <p>@nayakarimah_</p>
+        </div>    
+    </div>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>AYU</h3>
+            <p>@hyuhaye</p>
+        </div>   
+        <div class="course-col">
+            <h3>DISA</h3>
+            <p>@dsaatrsn</p>
+        </div>
+        <div class="course-col">
+            <h3>DEWI</h3>
+            <p>@dewimahaaraniii</p>
+        </div>    
+    </div>
+
+    
+</section>
+
+<!-- JavaScript for toggle menu -->
+<script>
+    var navLinks = document. getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0"
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px"
+    }
+</script>
+
+</body>
+</html>
