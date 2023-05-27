@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(file:///C:/CODING/website/image/background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://user-images.githubusercontent.com/134701198/241348481-0ca7a7ce-dc52-497c-ac74-fc5dac7789c0.jpg);
     background-position: center ;
     background-size: cover;
 }
